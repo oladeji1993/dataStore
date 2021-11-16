@@ -1,0 +1,40 @@
+<div class="container-fluid">
+   <h1>Customer Details</h1>
+    <form [formGroup]="formValue" (ngSubmit)="addClient()">
+        <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label">Name</label>
+             <input type="text" class="form-control" formControlName="name" placeholder="Name">
+         </div>
+     
+         <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label">Age</label>
+             <input type="text" class="form-control" formControlName="age" placeholder="Age">
+         </div>
+
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Address</label>
+            <input type="text" class="form-control" formControlName="address"  placeholder="Address">
+        </div>
+    
+     
+         <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label">Gender</label>
+             <!-- <input type="text" class="form-control" formControlName="gender" placeholder="Gender"> -->
+             <select class="form-select" aria-label="Default select example" formControlName="gender">
+                <option selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">FeMale</option>
+              </select>
+         </div>
+     
+         <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label">No of Orders</label>
+             <input type="text" class="form-control" formControlName="number_of_orders" placeholder="No of orders">
+         </div>
+     
+         <div class="action">
+             <button type="submit" class="btn btn-primary">Add</button>
+         </div>
+
+    </form>
+</div>

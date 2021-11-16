@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "name": "Oladeji",
+      "gender": "male",
+      "age": "78",
+      "address": "shomolu lagos",
+      "order": "8",
+      "id": 8
+    },
+    {
+      "name": "Oyin",
+      "gender": "female",
+      "age": "45",
+      "address": "Akure",
+      "order": "9",
+      "id": 9
+    },
+    {
+      "name": "ayoola",
+      "gender": "male",
+      "age": "67",
+      "address": "ondo",
+      "order": "6",
+      "id": 10
+    },
+    {
+      "name": "bobby",
+      "gender": "male",
+      "age": "12",
+      "address": "akure",
+      "order": "81",
+      "id": 11
+    },
+    {
+      "name": "itoro bobby",
+      "gender": "male",
+      "age": "23",
+      "address": "asaba",
+      "order": "25",
+      "id": 12
+    },
+    {
+      "name": "ola",
+      "gender": "male",
+      "age": "89",
+      "address": "olaiya street ",
+      "order": "78",
+      "id": 13
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
