@@ -53,11 +53,11 @@ export class TableComponent implements OnInit {
       this.toastr.error('error', 'Something went wrong');
 
     })
-    this. getCustomers()
+    this.getCustomers()
   }
 
   editCustomer(customer: any){
-    console.log(customer);
+    // console.log(customer);
     this.modalService.modal(customer).subscribe((res:any)=>{
       console.log(res)
       if(res && res.data) {

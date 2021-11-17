@@ -31,7 +31,7 @@ export class ActionModalComponent implements OnInit {
       address: [''],
       number_of_orders: ['']
     })
-    console.log(this.info);
+    // console.log(this.info);
     if(this.info) {
       this.info.number_of_orders = this.info.order;
       this.formValue.patchValue(this.info);
@@ -65,7 +65,6 @@ export class ActionModalComponent implements OnInit {
   getCustomers(){
     this.api.getCustomer().subscribe((data:any) =>{
       this.allCustomers = data
-      console.log(data)
     }, err =>{
       console.log(err)
       this.toastr.error('error', 'Something went wrong');
